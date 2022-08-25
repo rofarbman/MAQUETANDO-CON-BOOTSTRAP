@@ -126,7 +126,6 @@ body {
   width: 100%;
 }
 
-
 /* about us */
 
 .about-layout {
@@ -174,34 +173,14 @@ body {
   grid-area: main;
 }
 
-.card-products {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  width: 16rem;
-  height: 30rem;
-  align-items: center;
-  padding: 1rem;
-  justify-content: stretch;
-  gap: 1.5rem;
-  border-radius: 1.2rem;
-  vertical-align: top;
-  overflow: hidden;
-}
-
-.card-products img {
-  width: 13rem;
-  height: 13rem;
-}
-
-.flex-cards {
+/* .flex-cards {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   gap: 2em;
   flex-wrap: wrap;
-}
+} */
 
 /* services */
 
@@ -296,7 +275,6 @@ td {
   width: 90vw;
   height: max-content;
   padding: 2rem;
-  /* margin: 8vh; */
   background: plum;
   display: flex;
   flex-direction: column;
@@ -311,18 +289,6 @@ td {
   height: 6rem;
   resize: none;
 }
-
-/* BASE */
-
-/* menu hamburguesa */
-
-/* .header {
-  max-width: 100%;
-  grid-area: header;
-  user-select: none;
-  display: flex;
-  flex-direction: column;
-} */
 
 /* footer */
 
